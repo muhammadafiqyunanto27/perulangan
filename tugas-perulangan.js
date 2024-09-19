@@ -115,3 +115,107 @@ async function handleMenu(choice) {
 }  
 
 login();
+
+
+// Tampilan Aplikasi dengan console
+/* 
+    Masukkan password: 123456
+
+    setlah memasukan password maka langsung masuk ke halaman Menu utama
+
+    Login berhasil!
+
+Waktu Login: Thu Sep 19 2024 13:17:08 GMT+0700 (Waktu Indonesia Barat)
+===== MENU UTAMA =====
+1. Buat pesanan baru
+2. Lihat semua pesanan
+3. Perbarui pesanan
+4. Hapus pesanan
+5. Keluar
+======================
+Pilih opsi: 1
+
+    Kemudian pilih opsi jika yang di pilih opsi 1 maka akan ke menu membuat pesanan baru seperti ini
+
+Masukkan deskripsi pesanan:
+
+    Kemudian input nama pesanan
+
+Masukkan deskripsi pesanan: ayam goreng 
+
+    lalu enter dan tampilan akan berubah menjadi seperti ini 
+
+Pesanan baru telah dibuat dengan ID: 1 waktu: Thu Sep 19 2024 13:12:18 GMT+0700 (Waktu Indonesia Barat)
+Waktu Login: Thu Sep 19 2024 13:17:08 GMT+0700 (Waktu Indonesia Barat)
+===== MENU UTAMA =====
+1. Buat pesanan baru
+2. Lihat semua pesanan
+3. Perbarui pesanan
+4. Hapus pesanan
+5. Keluar
+======================
+Pilih opsi: 2
+
+    jika pilih opsi 2 akan menjadi seperti ini 
+
+
+===== DAFTAR PESANAN =====
+ID: 1, Deskripsi: ayam goreng
+==========================
+Waktu Login: Thu Sep 19 2024 13:17:08 GMT+0700 (Waktu Indonesia Barat)
+===== MENU UTAMA =====
+1. Buat pesanan baru
+2. Lihat semua pesanan
+3. Perbarui pesanan
+4. Hapus pesanan
+5. Keluar
+======================
+Pilih opsi: 3
+
+
+    jika pilih opsi 3 maka akan ke menu memperbarui pesanan seperti ini
+
+
+Masukkan ID pesanan yang ingin diperbarui: 1
+
+    karena id pesanan hanya ada satu maka pilih 1
+
+    lalu akan muncul tulisan ini 
+
+Masukkan deskripsi baru:
+
+    edit pesanan sesuai yang di inginkan misalkan yang tadinya ayam goreng kita ubah menjadi tahu goreng
+    maka pesanan akan di perbarui dan tampilan akan menjadi seperti ini
+
+Pesanan ID: 1 telah diperbarui. Thu Sep 19 2024 13:33:03 GMT+0700 (Waktu Indonesia Barat)
+Waktu Login: Thu Sep 19 2024 13:30:52 GMT+0700 (Waktu Indonesia Barat)
+===== MENU UTAMA =====
+1. Buat pesanan baru
+2. Lihat semua pesanan
+3. Perbarui pesanan
+4. Hapus pesanan
+5. Keluar
+======================
+Pilih opsi: 4
+
+    jika memilih opsi 4 atau menghapus pesanan maka akan muncul tulisan seperti ini 
+
+Masukkan ID pesanan yang ingin dihapus: 1
+
+    di sini kita tinggal menulis id yang ingin kita hapus misalkan 1
+    maka pesanan yang telah kita pilih untuk di hapus maka akan terhapus dan tampilan akan jadi seperti ini 
+
+Pesanan ID: 1 telah dihapus.
+Waktu Login: Thu Sep 19 2024 13:30:52 GMT+0700 (Waktu Indonesia Barat)
+===== MENU UTAMA =====
+1. Buat pesanan baru
+2. Lihat semua pesanan
+3. Perbarui pesanan
+4. Hapus pesanan
+5. Keluar
+======================
+Pilih opsi: 5
+
+jika pilih opsi 5 maka akan keluar dari aplikasi dan kembali ke tampilan gitbash awal dan semua pesanan akan di hapus
+
+*/
